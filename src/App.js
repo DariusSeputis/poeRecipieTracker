@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import InnocenceTouched from './components/innocenceTouched/InnocenceTouched';
+import KitavaTouched from './components/kitavaTouched/KitavaTouched';
+import RecipieOneStep from './components/recipieOneStep/RecipieOneStep';
+import RecipieTwoStep from './components/recipieTwoStep/RecipieTwoStep';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h2>Treant Horde</h2>
+      <RecipieOneStep
+        recItems={['Toxic', 'Sentinel', 'Steel-infused']}
+        result={'Treant Horde'}
+      />
+      <h2>Brine King-touched</h2>
+      <RecipieTwoStep
+        recipies={[
+          {
+            recItems: ['Permafrost', 'Sentinel'],
+            result: 'Ice Prison',
+          },
+
+          {
+            recItems: ['Storm Weaver', 'Hasted'],
+            result: 'Storm Srider',
+          },
+          {
+            recItems: ['Dynamo', 'Arcane Buffer'],
+            result: 'Heralding Minions',
+          },
+        ]}
+        secondStepResult={'Brine King-touched'}
+      />
+      <h2>Kitava-touched</h2>
+      <KitavaTouched />
+      <h2>Innocence-touched</h2>
+      <InnocenceTouched />
+    </>
   );
 }
 

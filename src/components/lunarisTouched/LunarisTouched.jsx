@@ -5,7 +5,6 @@ import {
   StyledRecWrap,
   StyledResultItem,
   StyledResultThreeStepWrap,
-  StyledResultWrap,
 } from '../recipieOneStep/RecipieOneStep.styled';
 import RecipieTwoStep from '../recipieTwoStep/RecipieTwoStep';
 

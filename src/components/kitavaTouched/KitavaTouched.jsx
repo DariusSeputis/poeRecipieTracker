@@ -3,7 +3,6 @@ import RecipieOneStep from '../recipieOneStep/RecipieOneStep';
 import {
   StyledCompWrap,
   StyledResultItemFiveStepWrap,
-  StyledResultWrap,
 } from '../recipieOneStep/RecipieOneStep.styled';
 import RecipieTwoStep from '../recipieTwoStep/RecipieTwoStep';
 import { StyledResultWrapKitava } from './KitavaTouched.styled';

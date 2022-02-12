@@ -6,7 +6,6 @@ import {
   StyledRecWrap,
   StyledResultItemFiveStep,
   StyledResultItemFiveStepWrap,
-  StyledResultWrap,
 } from '../recipieOneStep/RecipieOneStep.styled';
 import SolarisTouched from '../solarisTouched/SolarisTouched';
 

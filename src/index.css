@@ -4,8 +4,11 @@
   margin: 0;
 }
 .red {
-  color: red;
+  color: darkred;
 }
 .green {
   color: green;
+}
+body {
+  background-color: #c2b280;
 }
